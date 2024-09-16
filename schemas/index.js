@@ -1,0 +1,11 @@
+import achievements from './achievements'
+import alumni from './alumni'
+import events from './events'
+import members from './members'
+// import projects from './projects'
+import sponsors from './sponsors'
+import gallery from './gallery'
+import contact_us from './contact_us'
+import newEvents from './new-events'
+import newProjects from './new-projects'
+export const schemaTypes = [achievements, alumni, events, members, newProjects, sponsors, gallery, contact_us, newEvents]
